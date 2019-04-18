@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YoutubePercentages
 // @namespace    https://github.com/NoahvdAa/UserScripts/YoutubePercentages
-// @version      1.0
+// @version      1.0.0
 // @description  Shows like/dislike percentages.
 // @author       NoahvdAa
 // @match        https://www.youtube.com/watch?v=*
