@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YoutubePercentages
 // @namespace    https://github.com/NoahvdAa/UserScripts/YoutubePercentages
-// @version      1.0.0
+// @version      1.0.1
 // @description  Shows like/dislike percentages.
 // @author       NoahvdAa
 // @match        https://www.youtube.com/watch?v=*
@@ -10,7 +10,16 @@
 
 (function() {
     'use strict';
-    calculatePercentages()
+
+    window.yt_percentages_lastLocation = window.location.href;
+
+    calculatePercentages();
+
+    setInterval(function(){
+        if(window.yt_percentages_lastLocatio == window.location.href) return;
+        window.yt_percentages_lastLocation = window.location.href;
+        calculatePercentages();
+    },500);
 })();
 
 function calculatePercentages(){
