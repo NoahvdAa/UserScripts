@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GithubStreak
 // @namespace    https://github.com/NoahvdAa/UserScripts/GithubStreak
-// @version      1.0.1
+// @version      1.0.2
 // @description  Show you someones "Github Streak".
 // @author       NoahvdAa
 // @match        https://github.com/*
@@ -21,8 +21,7 @@
 function updateStreakCount(){
     var cText = document.querySelector(".js-yearly-contributions").children[0].querySelector(".f4.text-normal.mb-2");
 
-    if(cText.innerHTML.indexOf('last year') == -1) return;
-    if(cText.innerHTML.indexOf('🔥') != -1) return;
+    if(cText.innerHTML.indexOf('last year') == -1 || cText.innerHTML.indexOf('🔥') != -1) return;
 
     var streak = 0;
     var elements = [];
