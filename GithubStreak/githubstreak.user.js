@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GithubStreak
 // @namespace    https://github.com/NoahvdAa/UserScripts/GithubStreak
-// @version      1.0.2
+// @version      1.0.3
 // @description  Show you someones "Github Streak".
 // @author       NoahvdAa
 // @match        https://github.com/*
@@ -12,9 +12,8 @@
     'use strict';
 
     // Page is not a profile.
-    if(window.location.pathname.split('/').length != 2) return;
-    if(document.querySelectorAll(".orghead").length != 0) return;
-
+    if(window.location.pathname.split('/').length != 2 || document.querySelectorAll(".orghead").length != 0) return;
+   
     setInterval(updateStreakCount,250);
 })();
 
