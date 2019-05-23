@@ -1,4 +1,4 @@
-# GithubStreak
+# YouTubePercentages
 
 <a href="https://github.com/NoahvdAa/UserScripts/raw/master/YoutubePercentages/youtubepercentages.user.js" target="_blank">Install</a> [Requires Tampermonkey/Greasemonkey]
 
