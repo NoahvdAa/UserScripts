@@ -21,6 +21,7 @@
     });
 
     function checkNextUser(){
+        if(window.usersToCheck.length == 0) return;
         var user = window.usersToCheck.shift();
         var id = $(user).find('a').attr('href').split('.');
         id = id[id.length-1].replace('/','');
