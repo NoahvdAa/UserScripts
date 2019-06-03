@@ -3,6 +3,8 @@ A collection of some random userscripts I made.
 
 ### Index
 
+[Bangs4Google](https://github.com/NoahvdAa/UserScripts/tree/master/Bangs4Google) - Adds DuckDuckGo !bangs to Google!
+
 [GithubStreak](https://github.com/NoahvdAa/UserScripts/tree/master/GithubStreak) - When visiting someone's profile you will see their commit streak.
 
 [XenForoBanDetector](https://github.com/NoahvdAa/UserScripts/tree/master/XenForoBanDetector) - Shows when someone is banned on a XenForo forum (In thread view only).
