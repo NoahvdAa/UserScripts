@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bangs4Google
 // @namespace    https://github.com/NoahvdAa/UserScripts/Bangs4Google
-// @version      1.0
+// @version      1.1
 // @description  Adds DuckDuckGo !bangs to google!
 // @author       NoahvdAa
 // @match        https://*/*
@@ -13783,7 +13783,14 @@
 
     var bangUrl = window.validBangs[bang].replace(/{{{s}}}/g, encodeURI(bangArguments.join(' '))).replace(/%252f/gi, '/');
 
-    window.location.replace(bangUrl);
+    setTimeout(function(){
+        window.location.replace(bangUrl);
+    }, 500);
 
-    document.body.innerHTML = '<img src="https://duckduckgo.com/assets/bang/bang.svg"><br>You should get redirected to your bang. If you are not, click <a href="' + bangUrl + '">here</a>!';
-})();
+    document.body.innerHTML = '&nbsp;';
+    document.body.style.background = '#23272A url(https://duckduckgo.com/assets/bang/bang.svg)';
+    document.body.style.backgroundAttachment = 'fixed';
+    document.body.style.backgroundPosition = 'center';
+    document.body.style.backgroundRepeat = 'no-repeat';
+
+})()
