@@ -9,4 +9,6 @@ A collection of some random userscripts I made.
 
 [XenForoBanDetector](https://github.com/NoahvdAa/UserScripts/tree/master/XenForoBanDetector) - Shows when someone is banned on a XenForo forum (In thread view only).
 
+[XenForoPresetMessages](https://github.com/NoahvdAa/UserScripts/tree/master/XenForoPresetMessages) - Use a simple dropdown to select a pre-set message to reply to a thread.
+
 [YoutubePercentages](https://github.com/NoahvdAa/UserScripts/tree/master/YoutubePercentages) - See a percentage for likes and dislikes (instead of numbers).
