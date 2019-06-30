@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Bangs4Google
-// @namespace    https://github.com/NoahvdAa/UserScripts/Bangs4Google
+// @namespace    https://github.com/NoahvdAa/UserScripts/tree/master/Bangs4Google
 // @version      1.1.1
 // @description  Adds DuckDuckGo !bangs to google!
 // @author       NoahvdAa
