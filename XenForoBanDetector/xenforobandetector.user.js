@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         XenForoBanDetector
-// @namespace    https://github.com/NoahvdAa/UserScripts/XenForoBanDetector
-// @version      1.0
+// @namespace    https://github.com/NoahvdAa/UserScripts/tree/master/XenForoBanDetector
+// @version      1.0.1
 // @description  Shows when a XenForo forum user is banned. (In threads only).
 // @author       NoahvdAa
 // @match        https://xenforo.com/community/threads/*
