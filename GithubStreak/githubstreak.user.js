@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GithubStreak
-// @namespace    https://github.com/NoahvdAa/UserScripts/GithubStreak
+// @namespace    https://github.com/NoahvdAa/UserScripts/tree/master/GithubStreak
 // @version      1.0.3
 // @description  Show you someones "Github Streak".
 // @author       NoahvdAa
