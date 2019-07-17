@@ -1,19 +1,15 @@
 // ==UserScript==
 // @name         XenForoPresetMessages
 // @namespace    https://github.com/NoahvdAa/UserScripts/tree/master/XenForoPresetMessages
-// @version      1.1.2
+// @version      1.1.3
 // @description  Reply with pre-set messages on XenForo forums.
 // @author       NoahvdAa
 // @match        https://xenforo.com/community/threads/*
 // @grant        none
 // ==/UserScript==
 
-var XFPMOptions = {
-    "Simple Example": "Example 1 :)",
-    "Example BBCode": "[b]BBCode[/b] is supported.",
-    "Example Spacer": "disabled",
-    "Link Example": "[URL='http://example.com']example link[/URL]"
-};
+// ⬇⬇⬇⬇⬇ REMOVE THIS LINE, THEN PASTE CONFIG HERE ⬇⬇⬇⬇⬇
+var XFPMOptions = {"Simple Example":"Example 1 :)","Example BBCode":"[b]BBCode[/b] is supported.","Example Spacer":"disabled","Link Example":"[URL='http://example.com']example link[/URL]"};
 
 (function() {
     'use strict';
