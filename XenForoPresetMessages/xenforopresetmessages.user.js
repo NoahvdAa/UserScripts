@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         XenForoPresetMessages
 // @namespace    https://github.com/NoahvdAa/UserScripts/tree/master/XenForoPresetMessages
-// @version      1.1.1
+// @version      1.1.2
 // @description  Reply with pre-set messages on XenForo forums.
 // @author       NoahvdAa
 // @match        https://xenforo.com/community/threads/*
@@ -19,7 +19,7 @@ var XFPMOptions = {
     'use strict';
 
     $(function(){
-        var html = '<select onchange="setMessage(this.value);"><option value="_empty_">Custom Message</option><option disabled>----------</option>';
+        var html = '<select onchange="setMessage(this.value);"><option value="_empty_">Custom Message</option><option disabled>__________</option>';
         Object.keys(XFPMOptions).forEach(option=>{
             html += '<option value="'+option+'" '+(function(){if(XFPMOptions[option] == 'disabled') return 'disabled'; else return '';})()+'>'+option+'</option>';
         });
