@@ -14,9 +14,13 @@ Are you tired of having to TYPE everything you say on a XenForo forum? Then this
 
 4) Go to the userscript manager of your userscript extension.
 
-5) Click "Edit" next to "XenForoPresetMessages".
+5) Generate a config with the [Config Generator](https://noahvdaa.github.io/Small-Websites/XenForoPresetMessagesConfigGenerator/) and copy it to your clipboard.
 
-6) Go to this line: `// @match        https://xenforo.com/community/threads/*` and replace the domain (and path) with a forum of your choice.
+6) Click "Edit" next to "XenForoPresetMessages".
+
+7) Remove the line that starts with `var XFPMOptions = {` and paste your own config there.
+
+8) Go to this line: `// @match        https://xenforo.com/community/threads/*` and replace the domain (and path) with a forum of your choice.
 
 Example: `// @match        https://myforum.com/threads/*` or `// @match        https://other.com/forum/threads/*`
 
