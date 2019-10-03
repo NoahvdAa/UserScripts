@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         YouTubePercentages
-// @namespace    https://github.com/NoahvdAa/UserScripts/tree/master/YoutubePercentages
+// @namespace    https://github.com/NoahvdAa/UserScripts/tree/master/YouTubePercentages
 // @version      1.0.3
 // @description  Shows like/dislike percentages.
 // @author       NoahvdAa
