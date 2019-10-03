@@ -1,6 +1,6 @@
-# YoutubeMoreCommentsDark
+# YouTubeMoreCommentsDark
 
-<a href="https://github.com/NoahvdAa/UserScripts/raw/master/YoutubeMoreCommentsDark/youtubemorecommentsdark.user.js" target="_blank">Install</a> [Requires Tampermonkey/Greasemonkey]
+<a href="https://github.com/NoahvdAa/UserScripts/raw/master/YouTubeMoreCommentsDark/youtubemorecommentsdark.user.js" target="_blank">Install</a> [Requires Tampermonkey/Greasemonkey]
 
 **Requires "new" youtube!**
 

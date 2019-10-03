@@ -1,6 +1,6 @@
 # YouTubePercentages
 
-<a href="https://github.com/NoahvdAa/UserScripts/raw/master/YoutubePercentages/youtubepercentages.user.js" target="_blank">Install</a> [Requires Tampermonkey/Greasemonkey]
+<a href="https://github.com/NoahvdAa/UserScripts/raw/master/YouTubePercentages/youtubepercentages.user.js" target="_blank">Install</a> [Requires Tampermonkey/Greasemonkey]
 
 **Requires "new" youtube!**
 

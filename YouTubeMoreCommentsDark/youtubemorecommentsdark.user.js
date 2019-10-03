@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         YoutubeMoreCommentsDark
-// @namespace    https://github.com/NoahvdAa/UserScripts/tree/master/YoutubeMoreCommentsDark
+// @namespace    https://github.com/NoahvdAa/UserScripts/tree/master/YouTubeMoreCommentsDark
 // @version      1.0.0
 // @description  Makes the "More Comments" button on YouTube grey (instead of blue).
 // @author       NoahvdAa
